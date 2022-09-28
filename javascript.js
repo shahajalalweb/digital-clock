@@ -7,8 +7,8 @@
 
 
  setInterval(() => {
-    var asiaDhaka = new Date().toLocaleString([], { timeZone: "Asia/Dhaka" });
-    let date = new Date(asiaDhaka),
+    // var asiaDhaka = new Date().toLocaleString([], { timeZone: "Asia/Dhaka" });
+    let date = new Date(),
     hours = date.getHours(),
     second = date.getSeconds(),
     minutes = date.getMinutes();
