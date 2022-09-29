@@ -57,6 +57,27 @@ section .container .icons i {
     cursor: pointer;
 }
 
+.img img{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.marquee {
+    position: absolute;
+    top: 20px;
+    width: 280px;
+    height: auto;
+    font-weight: 600;
+}
+
+section.dark .container .marquee {
+    color: white;
+}
+
 section.dark .container .icons i {
     background: #fff;
     color: #323849;
