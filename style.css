@@ -134,3 +134,32 @@ section.dark .time .time-colon .am_pm {
     font-weight: 700;
     letter-spacing: 2px;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .time .time-colon .am_pm {
+        font-size: 10px;
+        right: -25px;
+    }
+
+    .time .time-colon .time-text {
+        width: 55px;
+        height: 55px;
+    }
+
+    .time .time-colon .time-text,
+    .time .time-colon .colon {
+    font-size: 15px;
+    font-weight: 600;
+    }
+
+    .time .time-colon .colon {
+        font-size: 20px;
+        font-weight: 700;
+        margin: 0 5px;
+    }
+
+    .time .time-colon .time-text .text {
+        font-size: 4px;
+    }
+  }
